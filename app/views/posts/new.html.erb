@@ -1,5 +1,5 @@
 <h3>Post Form</h3>
-<%= form_tag post_path %>
+<%= form_tag posts_path do %>
 
 <label for="post_title"> Post Title:</label><br>
 <%= text_field_tag :'post[title]' %><br>
